@@ -1,0 +1,16 @@
+body {
+  margin-top: 50px;
+}
+
+hr {
+  border-width: thick;
+}
+
+.perfect-width  {
+    width: 100%;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
