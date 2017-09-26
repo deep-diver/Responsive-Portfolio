@@ -17,8 +17,8 @@ h2 {
   font-size: 30pt;
 }
 
-#works h2 {
-  height: 100px;
+.works h3 {
+  height: 70px;
 }
 
 .perfect-width  {
@@ -50,10 +50,6 @@ h2 {
   h6 {
     font-size: 12px;
   }
-
-  #works h2 {
-    height: 60px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -71,5 +67,9 @@ h2 {
 
   .bottom-margin {
     margin-bottom: 25px;
+  }
+
+  .works h3 {
+    height: auto;
   }
 }
