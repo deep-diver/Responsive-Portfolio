@@ -2,38 +2,71 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script src="bootstrap.min.js"></script>
+
+    <title>Chansung's Portfolio</title>
 </head>
 <body>
-  <div class="container">
+  <header class="container top-margin">
     <div class="row vertical-align">
       <div class="col">
-        <div class="col-4">
-          <img class="perfect-width" src="img/me.jpg" alt="chansung"/>
+        <div class="col-md-4 text-right">
+          <img id="profile_img" class="perfect-width" src="img/me.jpg" alt="chansung"/>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-md-6">
         <div class="row text-right">
-          <h1 class="perfect-width">PARK CHANSUNG</h1>
+          <div class="col">
+            <h1 class="perfect-width">PARK CHANSUNG</h1>
+          </div>
         </div>
         <div class="row text-right">
-          <h4 class="perfect-width">JUST NINJA</h4>
+          <div class="col">
+            <h4 class="perfect-width">JUST NINJA</h4>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </header>
 
-  <div class="container">
+  <div class="container top-margin">
     <hr />
 
-    <div class="row">
+    <div class="row top-margin">
       <div class="col-12">
-        <img class="perfect-width" src="img/test.jpg"/>
+        <img class="perfect-width" src="img/test.jpg" alt="main image">
       </div>
     </div>
   </div>
 
+  <article class="container top-margin">
+    <div class="row">
+      <div class="col">
+        <h2>Featured Work</h2>
+      </div>
+    </div>
+
+    <div id="works" class="row top-margin">
+      <div class="col-md-4 text-center">
+        <img class="perfect-width" src="img/titanic_analysis.png" alt="titanic_analysis">
+        <h2 class="top-margin">Titanic Analysis</h2>
+        <h6 class="bottom-margin"><a href="#">https://github.com/deep-diver/titanic-analysis</a></h6>
+      </div>
+      <div class="col-md-4 text-center">
+        <img class="perfect-width" src="img/osm_wrangling.png" alt="osm_wrangling">
+        <h2 class="top-margin">OpenStreeMap Wrangling</h2>
+        <h6 class="bottom-margin"><a href="#">https://github.com/deep-diver/Openstreetmap_wrangling</a></h6>
+      </div>
+      <div class="col-md-4 text-center">
+        <img class="perfect-width" src="img/linear_regression.png" alt="linear_regression">
+        <h2 class="top-margin">Linear Regression</h2>
+        <h6 class="bottom-margin"><a href="#">https://github.com/deep-diver/linear_regression</a></h6>
+      </div>
+    </div>
+  </article>
 </body>
 </html>

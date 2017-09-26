@@ -1,9 +1,24 @@
 body {
   margin-top: 50px;
+
+  font-family: 'Playfair Display SC', serif;
 }
 
 hr {
   border-width: thick;
+  border-color: #7d97ad;
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+h2 {
+  font-size: 30pt;
+}
+
+#works h2 {
+  height: 100px;
 }
 
 .perfect-width  {
@@ -13,4 +28,48 @@ hr {
 .vertical-align {
     display: flex;
     align-items: center;
+}
+
+.top-margin {
+  margin-top: 45px;
+}
+
+.bottom-margin {
+  margin-bottom: 45px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 30pt;
+  }
+
+  h2 {
+    font-size: 20pt;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
+
+  #works h2 {
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 25pt;
+  }
+
+  #profile_img {
+    width: 100px;
+  }
+
+  .top-margin {
+    margin-top: 25px;
+  }
+
+  .bottom-margin {
+    margin-bottom: 25px;
+  }
 }
