@@ -1,7 +1,6 @@
 # first_portfolio_site
 
-![GitHub Logo](/large.png)
-![GitHub Logo](/small.png)
+<img src="/large.png" width="400" height="400"> Large.   <img src="/small.png" width="130" height="400"> Small. 
 
 This personal project is to build a very simple portfolio webpage.
 This project is a part of Udacity's Front End Web Developer Nanodegree program's assignment.
