@@ -1,5 +1,8 @@
 # first_portfolio_site
 
+![GitHub Logo](/large.png)
+![GitHub Logo](/small.png)
+
 This personal project is to build a very simple portfolio webpage.
 This project is a part of Udacity's Front End Web Developer Nanodegree program's assignment.
 
